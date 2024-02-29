@@ -44,8 +44,8 @@ func WithFields(logger *zap.Logger, fields []zap.Field) *zap.Logger {
 }
 
 // Debug logs a message at the debug level.
-func (l *zap.Logger) Debug(msg string, fields ...zap.Field) {
-	l.Debugw(msg, fields...)
+func Debug(l *zap.Logger, msg string, fields ...zap.Field) {
+  l.Debug(msg, fields...) // Call the existing Debug method
 }
 
 // Info logs a message at the info level.
