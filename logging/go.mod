@@ -1,4 +1,4 @@
-module github.com/dhruvyadav14/go-stuff
+module github.com/dhruvyadav14/go-stuff/logging
 
 go 1.22.0
 
