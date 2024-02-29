@@ -6,7 +6,7 @@ import (
 )
 
 // Level defines the available log levels.
-type Level zap.Level
+// type Level zap.Level
 
 const (
 	DebugLevel Level = iota
